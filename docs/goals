@@ -1,0 +1,21 @@
+# TODOs
+
+## Encoding
+
+Encoding needs to be able to create a function such that for image_1...image_n, where n is the maximum number of images that could be generated, there is a bijective function mapping each image (as a 2d array of 3 integers in the range [0, 255] per cell) and a string of characters.
+
+This function should make it easy to know what the next image in the function is, e.g., you can efficiently generate the code for image_i+1 from image_i.
+
+## Website
+
+The website should allow users to navigate between images quickly and easily, lazy evaluating the rendering of these images based on a given set of codes from the previous TODO.
+
+### Top Images
+
+Users can vote on images they find interesting, with a 'hall of fame' of sorts for the images with the most votes.
+
+## Livestream
+
+Automated video feed of the cycle from image_1...image_n generating every 100ms (or something reasonably quick).
+
+
